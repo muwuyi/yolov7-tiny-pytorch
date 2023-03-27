@@ -13,9 +13,9 @@ import numpy as np
 
 from PIL import Image
 from tqdm import tqdm
-from .utils import cvtColor, preprocess_input, resize_image
-from .utils_bbox import DecodeBox
-from .utils_map import get_coco_map, get_map
+from utils.utils import cvtColor, preprocess_input, resize_image
+from utils.utils_bbox import DecodeBox
+from utils.utils_map import get_coco_map, get_map
 
 
 class LossHistory():
